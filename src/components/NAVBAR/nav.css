@@ -1,0 +1,284 @@
+body
+{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+
+a{
+    color: white;
+}
+.header
+{
+    background-color: rgba(13,110,139,.7);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 0px;
+    left: 0px;
+}
+.header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+
+}
+.header ul a
+{
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    text-align: center;
+    
+
+    
+}
+/* ::-webkit-scrollbar
+{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: rgba(13,110,139,0.75);
+}
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(#AFEEEE,#FFC0CB);
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background-image: linear-gradient(#FFC0CB,#AFEEEE);
+} */
+
+
+.header ul li:hover{
+    background-color:rgba(13,110,139,0.75);
+    display: block;
+}
+.header .logo{
+    float: left;
+    display: block;
+    font-size: 2rem;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 2.4rem;
+letter-spacing:4px ;
+}
+.header .menu
+{
+    clear: both;
+    max-height: 0;
+    transition:max-height .2s ease-out;
+}
+.header .menu-icon{
+    border: 1px solid white;
+    padding: 20px 10px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+    margin-top: 20px ;
+    margin-right: 20px;
+    
+}
+.header .menu-icon .nav-icon
+{
+    display: block;
+    height: 2px;
+    width: 35px;
+    position: relative;
+    margin-top: 1px;
+    background: white;
+    transition: background .2s ease-out;
+}
+.header .menu-icon .nav-icon:before
+{
+    background: white;
+    content:"";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 5px;
+    transition: all .2s ease-out;
+}
+.header .menu-icon .nav-icon:after
+{
+    background: white;
+    content:"";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -5px;
+    transition: all .2s ease-out;
+}
+.header .menu-btn
+{
+    display: none;
+}
+.header .menu-btn:checked~.menu
+{
+    max-height: 60vh;
+}
+.header .menu-btn:checked~.menu-icon .nav-icon
+{
+background: transparent;
+}
+.header .menu-btn:checked~.menu-icon .nav-icon:before
+{
+    transform: rotate(-45deg);
+    top: 0;
+
+}
+.header .menu-btn:checked~.menu-icon .nav-icon:after
+{
+    transform: rotate(45deg);
+    top: 0;
+
+}
+@media (min-width:53em)
+{
+    .header li{
+        float: left;
+    }
+    .header li a
+    {
+        padding: 15px;
+        
+    }
+    .header .menu{
+        clear:none;
+        float: right;
+        max-height: none;
+        text-align: center;
+        align-items: center;
+        margin-top: 12px;
+    }
+    .header .menu-icon
+    {
+        display: none;
+        padding: 20px;
+        text-decoration: none;
+    }
+    .header ul li:hover
+    {
+        background-color:rgba(13,110,139,0.75);
+        transition: all .2s ease-out;
+
+
+    }
+    .header .menu-icon
+    {
+        display: none
+    }
+    
+ 
+}
+.container{
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 3rem;
+    color: white;
+}
+/* .showcase{
+    color: white;
+    height: 100vh;
+    position: relative;
+
+}
+.showcase:before{
+    content: "";
+    background: url(../../Animation//images.jpeg) no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.showcase .showcase-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+.showcase h1{
+    font-size: 4rem;
+    margin-bottom: 0px;
+}
+.showcase p{
+    font-size: 1.3rem;
+} */
+/* adding responsiveness */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    .showcase h1{
+        font-size: 2.5rem;
+    }
+    .showcase p{
+        font-size: 1rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    .showcase h1{
+        font-size: 3rem;
+    }
+    .showcase p{
+        font-size: 1.1rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    .showcase h1{
+        font-size: 3.2rem;
+    }
+    .showcase p{
+        font-size: 1.2rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+    .showcase h1{
+        font-size: 3.5rem;
+    }
+    .showcase p{
+        font-size: 1.25rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+    .showcase h1{
+        font-size: 4rem;
+    }
+    .showcase p{
+        font-size: 1.3rem;
+    }
+    
+}
+.btn {
+    display: inline-block;
+    border: none;
+    background:rgba(13,110,139,0.75) ;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    transition: opacity 1s ease-in-out;
+    text-decoration: none;
+  }
+  .btn:hover {
+    opacity: 0.7;
+  }
+  
