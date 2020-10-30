@@ -1,6 +1,6 @@
 import React from 'react'
 import "./nav.css"
-import {  } from "../../pics/";
+
 export const Nav = () => {
     return (
         <div>
