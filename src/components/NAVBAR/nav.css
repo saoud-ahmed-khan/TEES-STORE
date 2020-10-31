@@ -25,19 +25,8 @@ body
     overflow: hidden;
 
 }
-.header ul li
-{
-    display: block;
-    padding:10px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1.8rem;
-    cursor: crosshair;
-    
 
-    
-}
-/* ::-webkit-scrollbar
+::-webkit-scrollbar
 {
     width: 15px;
 }
@@ -45,12 +34,12 @@ body
     background: rgba(13,110,139,0.75);
 }
 ::-webkit-scrollbar-thumb{
-    background-image: linear-gradient(#AFEEEE,#FFC0CB);
+    background-image: linear-gradient( rgb(219, 93, 115),rgb(38, 184, 171));
 }
 ::-webkit-scrollbar-thumb:hover
 {
-    background-image: linear-gradient(#FFC0CB,#AFEEEE);
-} */
+    background-image: linear-gradient(rgb(38, 184, 171),rgb(219, 93, 115));
+}
 
 
 .header ul li:hover{
@@ -59,14 +48,12 @@ body
     display: block;
 }
 .header .logo{
-    float: left;
-    display: block;
-    font-size: 2rem;
-    padding: 10px 20px;
-    margin-top: 10px;
-    text-decoration: none;
-    font-size: 2.4rem;
-letter-spacing:4px ;
+    
+    height: 90px;
+    margin-top: 15px;
+    margin-left: 50px;
+    
+   
 }
 .header .menu
 {
@@ -234,17 +221,61 @@ letter-spacing:4px ;
     .showcase p{
         font-size: 1rem;
     }
+    .header .logo{
+    
+        height: 70px;
+        margin-top: 15px;
+        margin-left: 20px;
+        
+       
 
+    }
+    .header ul li
+{
+    
+    
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.8rem;
+    cursor: crosshair;
+    border: none;
+ 
+    
+
+    
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) 
 {
+    .header ul li
+{
+    
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.8rem;
+    cursor: crosshair;
+ 
+    
+
+    
+}
     .showcase h1{
         font-size: 3rem;
     }
     .showcase p{
         font-size: 1.1rem;
+    }
+    .header .logo{
+    
+        height: 80px;
+        margin-top: 15px;
+        margin-left: 25px;
+        cursor: crosshair;
+        
+       
     }
     
 }
@@ -258,6 +289,21 @@ letter-spacing:4px ;
     .showcase p{
         font-size: 1.2rem;
     }
+    .header ul li
+    {
+        
+        border: none;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.8rem;
+        cursor: crosshair;
+        margin-right: 20px;
+        padding: 8px;
+     
+        
+    
+        
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -269,6 +315,20 @@ letter-spacing:4px ;
     .showcase p{
         font-size: 1.25rem;
     }
+    .header ul li
+{
+    display: block;
+    padding:5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.8rem;
+    cursor: crosshair;
+    border: 2px solid rgb(219, 93, 115);
+    margin-right: 20px;
+    
+
+    
+}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -280,6 +340,20 @@ letter-spacing:4px ;
     .showcase p{
         font-size: 1.3rem;
     }
+    .header ul li
+{
+    display: block;
+    padding:5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.8rem;
+    cursor: crosshair;
+    border: 2px solid rgb(219, 93, 115);
+    margin-right: 20px;
+    
+
+    
+}
     
 }
 .btn {
