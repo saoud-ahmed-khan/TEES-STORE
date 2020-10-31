@@ -10,7 +10,7 @@ body
 .header
 {
     background-color: transparent;
-    position: fixed;
+    position: absolute;
     width: 100%;
     z-index: 3;
     font-family: 'Stylish', sans-serif;
@@ -370,5 +370,5 @@ body
   .nav-headerpic{
       height: 100vh;
       width: 100%;
-      position: absolute;
+      position: relative;
   }

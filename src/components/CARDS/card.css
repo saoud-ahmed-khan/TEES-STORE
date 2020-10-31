@@ -1,0 +1,54 @@
+.coursemain
+{
+    text-align: center;
+    box-shadow: 0 0 15px  rgb(38, 184, 171);
+    margin: auto;
+    margin-top: 40px;
+    width: 350px;
+    border-radius: 15px;
+    position: relative;
+    background-color:  rgb(38, 184, 171);
+
+
+}
+.title
+{
+    color: rgb(219, 93, 115);
+background-color:  rgb(38, 184, 171);
+
+}
+.coursetitle{
+    width: 100%;
+    background-color: rgb(38, 184, 171);
+    text-align: center;
+    letter-spacing: 20px;
+    font-family: lato;
+    font-size: 4rem;
+
+}
+.title > h1
+{
+    margin-bottom: 10px;
+}
+.coursemain:hover{
+    transform: scale(1.05);
+    transition: transform 1s ease-in-out;
+}
+.allcources{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+    background:rgb(38, 184, 171);
+    
+   
+
+}
+@media only screen and (max-width: 720px) {
+    .allcources{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+}
