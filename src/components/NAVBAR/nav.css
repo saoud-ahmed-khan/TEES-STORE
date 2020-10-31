@@ -10,13 +10,16 @@ body
 .header
 {
     background-color: transparent;
-    position: absolute;
+    position: sticky;
     width: 100%;
-    z-index: 3;
     font-family: 'Stylish', sans-serif;
+    z-index: 199;
     top: 0px;
     left: 0px;
     color: rgb(219, 93, 115);
+}
+.header.active{
+    background:rgb(219, 93, 115); ;
 }
 .header ul{
     margin: 0;
@@ -26,7 +29,7 @@ body
 
 }
 
-::-webkit-scrollbar
+/* ::-webkit-scrollbar
 {
     width: 15px;
 }
@@ -39,7 +42,7 @@ body
 ::-webkit-scrollbar-thumb:hover
 {
     background-image: linear-gradient(rgb(38, 184, 171),rgb(219, 93, 115));
-}
+} */
 
 
 .header ul li:hover{
@@ -62,7 +65,7 @@ body
     transition:max-height .2s ease-out;
 }
 .header .menu-icon{
-    border: 1px solid rgb(219, 93, 115);;
+    border: 1px solid rgb(219, 93, 115);
     padding: 20px 10px;
     position: relative;
     float: right;
@@ -371,4 +374,5 @@ body
       height: 100vh;
       width: 100%;
       position: relative;
+      top: -100px;
   }

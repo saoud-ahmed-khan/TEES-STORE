@@ -7,14 +7,13 @@ import "./../card.css"
 export const CardSection = () => {
    
     return (
-        <div>
+        
           
         <div className="allcources">
-            <CardData pic={ptees} name="SUPER TEES" />
+            <CardData pic={ptees} name="ALL SEASONS" />
             <CardData pic={sale} name="WINTER SALE" />
-            <CardData pic={pmeasurement} name="ACCURATE MEASUREMENT" />
+            <CardData pic={pmeasurement} name=" MEASUREMENT" />
         </div>
        
-        </div>
     )
 }

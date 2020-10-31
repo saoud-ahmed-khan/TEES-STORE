@@ -4,14 +4,13 @@ import "./../card.css"
 export const CardData = (props) => {
     return (
         <div className="coursemain">
-            <div>''
+            <div>
             <Lottie options={{ animationData:props.pic , loop: true, autoplay: true, rendererSettings: { preserveAspectRatio: "xMidYMid slice", }, }}
                 height={"100%"}
                 width={"100%"}
                 style={{
-                    width: "100%",
-                    height: "400px",
-                    maxWidth: "400px",
+                   
+                    
                 }}
             />
            

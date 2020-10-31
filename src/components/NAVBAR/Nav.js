@@ -6,7 +6,7 @@ import logo from "../../components/pics/logo.png";
 export const Nav = () => {
     return (
         <div>
-        <header className="header">
+        <header className="header ">
            <img className="logo" src={logo} alt="logo"/>
            <input className="menu-btn" type="checkbox" id="menu-btn" />
            <label className="menu-icon" for="menu-btn"><span className="nav-icon"></span></label>

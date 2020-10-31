@@ -7,19 +7,18 @@
     width: 350px;
     border-radius: 15px;
     position: relative;
-    background-color:  rgb(38, 184, 171);
-
+    
 
 }
 .title
 {
     color: rgb(219, 93, 115);
 background-color:  rgb(38, 184, 171);
+margin-bottom: 0px;
 
 }
 .coursetitle{
     width: 100%;
-    background-color: rgb(38, 184, 171);
     text-align: center;
     letter-spacing: 20px;
     font-family: lato;
@@ -39,7 +38,7 @@ background-color:  rgb(38, 184, 171);
     flex-direction: row;
     margin: auto;
     justify-content: space-evenly;
-    background:rgb(38, 184, 171);
+    /* background:rgb(38, 184, 171); */
     
    
 
@@ -49,6 +48,32 @@ background-color:  rgb(38, 184, 171);
         flex-wrap: wrap;
         justify-content: center;
     }
+    
 
+}
+@media only screen and (max-width: 600px) 
+{
+    .coursemain
+    {
+        text-align: center;
+        margin-left: 70px;
+        
+    
+    }  
+}
 
+@media only screen and (min-width: 600px) 
+{
+    .coursemain
+    {
+        text-align: center;
+        box-shadow: 0 0 15px  rgb(38, 184, 171);
+        margin: auto;
+        margin-top: 40px;
+        width: 350px;
+        border-radius: 15px;
+        position: relative;
+        
+    
+    }  
 }
