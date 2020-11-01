@@ -2,7 +2,6 @@ import React from 'react'
 import "./nav.css"
 import Header from "../../components/pics/header.jpg";
 import logo from "../../components/pics/logo.png";
-
 export const Nav = () => {
     return (
         <div>
@@ -19,6 +18,7 @@ export const Nav = () => {
        <div>
                <img  className="nav-headerpic" src={Header} alt="header pic"/>
            </div>
+           
    </div>
     )
 }
