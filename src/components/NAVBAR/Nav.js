@@ -2,6 +2,8 @@ import React from 'react'
 import "./nav.css"
 import Header from "../../components/pics/header.jpg";
 import logo from "../../components/pics/logo.png";
+import logoscroll from "../../components/pics/onscrolllogo.png";
+
 export const Nav = () => {
     const [navbar,setNavbar]= React.useState(false);
     const changebackground=()=>
@@ -19,7 +21,7 @@ export const Nav = () => {
     return (
         <div>
         <header className={update?'header active':'header'}>
-           <img className="logo" src={logo} alt="logo"/>
+           <img className="logo" src={update ? logoscroll: logo} alt="logo"/>
            <input className="menu-btn" type="checkbox" id="menu-btn" />
            <label className="menu-icon" for="menu-btn"><span className="nav-icon"></span></label>
            <ul className="menu">
