@@ -6,17 +6,19 @@ export const Nav = () => {
     const [navbar,setNavbar]= React.useState(false);
     const changebackground=()=>
     {
-        if(window.scrollY>=70) 
+        console.log(window.scrollY);
+        if(window.scrollY >60) 
         {
             setNavbar(true)    
         } else {
             setNavbar(false)
         }
     }
+    var update=navbar;
     window.addEventListener('scroll',changebackground)
     return (
         <div>
-        <header className={navbar?'header active':'header'}>
+        <header className={update?'header active':'header'}>
            <img className="logo" src={logo} alt="logo"/>
            <input className="menu-btn" type="checkbox" id="menu-btn" />
            <label className="menu-icon" for="menu-btn"><span className="nav-icon"></span></label>
