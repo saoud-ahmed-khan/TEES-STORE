@@ -13,8 +13,8 @@ body
     position: sticky;
     width: 100%;
     font-family: 'Stylish', sans-serif;
-    z-index: 199;
     top: 0px;
+    z-index: 999;
     left: 0px;
     color: rgb(219, 93, 115);
 }
