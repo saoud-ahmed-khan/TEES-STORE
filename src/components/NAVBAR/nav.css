@@ -19,7 +19,14 @@ body
     color: rgb(219, 93, 115);
 }
 .header.active{
-    background:rgb(219, 93, 115); ;
+    background:rgb(219, 93, 115);
+    color: rgb(38, 184, 171);
+    width: 100%;
+    font-family: 'Stylish', sans-serif;
+    top: 0px;
+    z-index: 999;
+    left: 0px;
+    height: 80px;
 }
 .header ul{
     margin: 0;
