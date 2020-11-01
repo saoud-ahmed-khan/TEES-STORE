@@ -7,7 +7,9 @@
     font-family: 'Stylish', sans-serif;
     top: 0px;
     left: 0px;
+    z-index: 1;
     color: rgb(219, 93, 115);
+    
 }
 .header.active{
     background:rgb(219, 93, 115);
@@ -47,9 +49,10 @@
     clear: both;
     max-height: 0;
     transition:max-height .2s ease-out;
+    z-index: -1;
 }
 .header .menu-icon{
-    border: 1px solid rgb(219, 93, 115);
+    border: 1px solid white;
     padding: 20px 10px;
     position: relative;
     float: right;
@@ -101,10 +104,12 @@
     opacity: .8;
     color: rgb(38, 184, 171);
     
+    
 }
 
 .header .menu-btn:checked~.menu-icon .nav-icon
-{ background-color:transparent
+{ background-color:transparent;
+    
 }
 
 .header .menu-btn:checked~.menu-icon .nav-icon:before

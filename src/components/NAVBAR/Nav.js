@@ -30,6 +30,7 @@ export const Nav = () => {
                <li>ABOUT US</li>
            </ul>
        </header>
+       
        <div>
                <img  className="nav-headerpic" src={Header} alt="header pic"/>
            </div>
