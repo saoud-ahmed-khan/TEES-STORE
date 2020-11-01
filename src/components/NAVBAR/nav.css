@@ -32,15 +32,14 @@
 
 
 .header ul li:hover{
-    background-color:rgb(219, 93, 115);
+    background-color:rgb(38, 184, 171);
     color: rgb(38, 184, 171);
     display: block;
 }
-.header .logo{
+img .logo{
+    
     
     height: 10px;
-    margin-top: 15px;
-    margin-left: 50px;
     
    
 }
@@ -270,19 +269,7 @@
 }
     
 }
-.btn {
-    display: inline-block;
-    border: none;
-    background:rgba(13,110,139,0.75) ;
-    color: #fff;
-    padding: 0.75rem 1.5rem;
-    margin-top: 1rem;
-    transition: opacity 1s ease-in-out;
-    text-decoration: none;
-  }
-  .btn:hover {
-    opacity: 0.7;
-  }
+
   /*header pic css*/
   .nav-headerpic{
       height: 100vh;
