@@ -1,5 +1,4 @@
 import React from 'react'
-
 export const Products = () => {
     const tishirts =
         [
@@ -91,9 +90,22 @@ export const Products = () => {
         ]
     return (
 
-        <div className="Product-main">
-            
-        </div>
+     <div>
+         {
+             tishirts.map((tishrt)=>{
+                <div className="Product-main">
+            <div className="product-image" >
+                <img height="100%" width="100%" src={image}/>
+            </div>
+            <div className="product-title">
+                {title}
+            </div>
+            <div className="product-price">
+                Price: $ {price}
+            </div> 
+             })
+         }
+     </div>   
 
     )
 }
