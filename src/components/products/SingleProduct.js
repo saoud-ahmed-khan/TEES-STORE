@@ -8,7 +8,7 @@ import "./product.css"
 export const SingleProduct = () => {
     const { id } = useParams();
 
-    var Setdata = tishirts.find((tees) => { return tees.id == id })
+    var Setdata = tishirts.find((tees) => { return tees.id === id })
     return (
         <div className="SingleProduct-main">
             <div className="SingleProduct-img">

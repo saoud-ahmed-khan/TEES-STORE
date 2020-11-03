@@ -11,17 +11,17 @@ export const Footer = () => {
                     <h3>TEES <span>STORE</span></h3>
 
                     <p className="footer-links">
-                        <a href="#">Home</a>
+                        <a href="https://github.com/saoud-ahmed-khan">Home</a>
 ·
- <a href="#">Blog</a>
+ <a href="https://github.com/saoud-ahmed-khan">Blog</a>
 ·
- <a href="#">Pricing</a>
+ <a href="https://github.com/saoud-ahmed-khan">Pricing</a>
 ·
- <a href="#">About</a>
+ <a href="https://github.com/saoud-ahmed-khan">About</a>
 ·
- <a href="#">Faq</a>
+ <a href="https://github.com/saoud-ahmed-khan">Faq</a>
 ·
- <a href="#">Contact</a>
+ <a href="https://github.com/saoud-ahmed-khan">Contact</a>
                     </p>
 
                     <p className="footer-company-name">design by &copy; saoud</p>
