@@ -4,7 +4,7 @@ import './App.css';
 import { Home } from "../src/pages/Home";
 import { Footer } from "../src/components/footer/Footer";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
-import { Products } from "./components/products/Products";
+import { ProductHeader } from "./components/products/ProductHeader";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
      <Nav/>
      <Routes>
        <Route path="/" element={<Home/>}/>
-       <Route path="/products" element={<Products/>}/>
+       <Route path="/products/*" element={<ProductHeader/>}/>
 
      </Routes>
      

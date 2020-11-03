@@ -93,9 +93,12 @@ export const ProductTemplate = ({image,title,price,id}) => {
     
     return (
         <div className="Product-main">
-            <Link to={`/products/${id}`}>
+            <Link to={`/products/${id}`}
+            style={{ textDecoration: 'none' }}
+
+            >
             <div className="product-image" >
-                <img height="100%" width="100%" src={image}/>
+                <img alt={title}height="100%" width="100%" src={image}/>
             </div>
             <div className="product-title">
                 {title}

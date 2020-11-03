@@ -8,7 +8,6 @@ import { Link } from "react-router-dom";
 export const Nav = () => {
     const [navbar, setNavbar] = React.useState(false);
     const changebackground = () => {
-        console.log(window.scrollY);
         if (window.scrollY > 60) {
             setNavbar(true)
         } else {
