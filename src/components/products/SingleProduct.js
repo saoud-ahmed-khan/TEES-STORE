@@ -8,9 +8,10 @@ import "./product.css"
 export const SingleProduct = () => {
     const { id } = useParams();
 
-    var Setdata = tishirts.find((tees) => { return tees.id === id })
+    var Setdata = tishirts.find((tees) => { return tees.id === Number(id) })
     return (
         <div className="SingleProduct-main">
+            
             <div className="SingleProduct-img">
                 <img alt={Setdata.title} height="100%" width="100%" src={Setdata.pic} />
             </div>
