@@ -27,14 +27,14 @@ export const tishirts =
                 id: 4,
                 title: "ARMOUR TEES",
                 pic: "https://cdn.shopify.com/s/files/1/2290/7887/products/MTF201049-OLV_1_dde6f304-638a-4581-9d4f-98b5f1c2f692_800x1000_crop_center.jpg?v=1592900236",
-                price: "",
+                price: "45",
 
             },
             {
                 id: 5,
                 title: "DESIGN POCKET",
                 pic: "https://cdn.shopify.com/s/files/1/2290/7887/products/MTP201056-NVY_800x1000_crop_center.jpg?v=1592900967",
-                price: "",
+                price: "56",
 
             },
             {
@@ -55,12 +55,12 @@ export const tishirts =
                 id: 8,
                 title: "SIDE WHITE",
                 pic: "https://cdn.shopify.com/s/files/1/2290/7887/products/MTF201046-HTRGRY_800x1000_crop_center.jpg?v=1594475863",
-                price: "",
+                price: "33",
 
             },
             {
                 id: 9,
-                title: "",
+                title: "RED STRIPS",
                 pic: "https://cdn.shopify.com/s/files/1/2290/7887/products/MTF201058-RED_1_800x1000_crop_center.jpg?v=1598519731",
                 price: "",
 
