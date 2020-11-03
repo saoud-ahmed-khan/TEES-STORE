@@ -10,7 +10,7 @@ export const Products = () => {
          
          {
              
-             tishirts.map((tees)=>{return(<ProductTemplate  title={tees.title} id={tees.id} price={tees.price} image={tees.pic}/>);})
+             tishirts.map((tees)=>{return(<ProductTemplate key={tees.id} title={tees.title} id={tees.id} price={tees.price} image={tees.pic}/>);})
                 
          }
      </div>
