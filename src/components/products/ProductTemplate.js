@@ -32,7 +32,7 @@ export const tishirts =
             },
             {
                 id: 5,
-                title: "",
+                title: "DESIGN POCKET",
                 pic: "https://cdn.shopify.com/s/files/1/2290/7887/products/MTP201056-NVY_800x1000_crop_center.jpg?v=1592900967",
                 price: "",
 
