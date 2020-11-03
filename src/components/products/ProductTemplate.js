@@ -1,6 +1,9 @@
 import React from 'react'
 import "./product.css"
 import { Link } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css"
+       
 export const tishirts =
         [
             {
@@ -90,14 +93,18 @@ export const tishirts =
 
         ]
 export const ProductTemplate = ({image,title,price,id}) => {
+    React.useEffect(()=>{
+        Aos.init({duration:1000});
+    })
     
     return (
-        <div className="Product-main">
+        <div className="Product-main"  >
             <Link to={`/products/${id}`}
             style={{ textDecoration: 'none' }}
 
             >
-            <div className="product-image" >
+                <div data-aos="zoom-out-down">
+            <div className="product-image"  >
                 <img alt={title}height="100%" width="100%" src={image}/>
             </div>
             <div className="product-title">
@@ -105,6 +112,7 @@ export const ProductTemplate = ({image,title,price,id}) => {
             </div>
             <div className="product-price">
                 Price: $ {price}
+            </div>
             </div>
             </Link>
         </div>
