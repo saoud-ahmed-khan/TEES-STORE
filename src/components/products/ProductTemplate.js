@@ -39,9 +39,9 @@ export const tishirts =
             },
             {
                 id: 6,
-                title: "",
+                title: "RED FLIER",
                 pic: "https://cdn.shopify.com/s/files/1/2290/7887/products/MTP201064RED_2_800x1000_crop_center.jpg?v=1601360097",
-                price: "",
+                price: "59",
 
             },
             {
