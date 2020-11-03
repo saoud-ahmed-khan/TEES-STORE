@@ -4,28 +4,28 @@ export const tishirts =
         [
             {
                 id: 1,
-                title: "",
+                title: "TEXTURE TEES",
                 pic: "https://cdn.shopify.com/s/files/1/2290/7887/products/MTP101124HGRBLK_1_800x1000_crop_center.jpg?v=1599580652",
-                price: "",
+                price: "70",
 
             },
             {
                 id: 2,
-                title: "",
+                title: "POLO TEES",
                 pic: "https://cdn.shopify.com/s/files/1/2290/7887/products/MTF201055MRNHTG_1_800x1000_crop_center.jpg?v=1599670266",
-                price: "",
+                price: "59",
 
             },
             {
                 id: 3,
-                title: "",
+                title: "O NECK",
                 pic: "https://cdn.shopify.com/s/files/1/2290/7887/products/MTP201042CHR_4_800x1000_crop_center.jpg?v=1599580133",
-                price: "",
+                price: "47",
 
             },
             {
                 id: 4,
-                title: "",
+                title: "ARMOUR TEES",
                 pic: "https://cdn.shopify.com/s/files/1/2290/7887/products/MTF201049-OLV_1_dde6f304-638a-4581-9d4f-98b5f1c2f692_800x1000_crop_center.jpg?v=1592900236",
                 price: "",
 

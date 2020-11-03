@@ -30,8 +30,11 @@
 
 }
 
+.link{
+    
+}
 
-.header ul li:hover{
+.header ul li .Link:hover{
     background-color:rgb(38, 184, 171);
     color: rgb(38, 184, 171);
     display: block;
