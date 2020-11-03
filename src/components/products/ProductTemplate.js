@@ -94,7 +94,7 @@ export const tishirts =
         ]
 export const ProductTemplate = ({image,title,price,id}) => {
     React.useEffect(()=>{
-        Aos.init({duration:1000});
+        Aos.init({duration:2000});
     })
     
     return (
