@@ -53,7 +53,7 @@ export const tishirts =
             },
             {
                 id: 8,
-                title: "",
+                title: "SIDE WHITE",
                 pic: "https://cdn.shopify.com/s/files/1/2290/7887/products/MTF201046-HTRGRY_800x1000_crop_center.jpg?v=1594475863",
                 price: "",
 
