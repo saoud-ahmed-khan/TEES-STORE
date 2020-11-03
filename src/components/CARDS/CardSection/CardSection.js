@@ -10,7 +10,7 @@ import "aos/dist/aos.css"
 
 export const CardSection = () => {
     React.useEffect(()=>{
-        Aos.init({duration:25000});
+        Aos.init({duration:2000});
     })
    
     return (

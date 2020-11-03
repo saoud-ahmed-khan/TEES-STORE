@@ -54,3 +54,118 @@
   a:hover {
     text-decoration: underline;
   }
+  @media only screen and (max-width: 600px)
+{
+  .err {
+    
+  font-size: 3rem;
+  
+}
+
+.far {
+
+font-size: 2rem;
+
+}
+
+.err2 {
+
+  font-size: 3rem;
+ 
+}
+
+.msg {
+  
+  font-size: 1rem;
+ 
+}
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+  .err {
+    
+    font-size: 4rem;
+    
+  }
+  
+  .far {
+  
+  font-size: 2.5rem;
+  
+  }
+  
+  .err2 {
+  
+    font-size: 4rem;
+   
+  }
+  
+  .msg {
+    
+    font-size: 1.4rem;
+   
+  } 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+  .err {
+    
+    font-size: 7rem;
+    
+  }
+  
+  .far {
+  
+  font-size: 4rem;
+  
+  }
+  
+  .err2 {
+  
+    font-size: 7rem;
+   
+  }
+  
+  .msg {
+    
+    font-size: 1.5rem;
+   
+  }
+   
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+    
+  .err {
+    
+    font-size: 11rem;
+    
+  }
+  
+  .far {
+  
+  font-size: 8rem;
+  
+  }
+  
+  .err2 {
+  
+    font-size: 11rem;
+   
+  }
+  
+  .msg {
+    
+    font-size: 2rem;
+   
+  }
+
+    
+}
