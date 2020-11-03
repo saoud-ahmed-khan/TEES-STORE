@@ -1,7 +1,7 @@
 import React from 'react'
 import { tishirts } from "./ProductTemplate";
 import { ProductTemplate } from "./ProductTemplate";
-
+import "./product.css"
 export const Products = () => {
     
     return (
@@ -9,7 +9,9 @@ export const Products = () => {
      <div className="products">
          
          {
-             tishirts.map((tees)=>{return(<ProductTemplate className="distance" title={tees.title} price={tees.price} image={tees.pic}/>);})
+             
+             tishirts.map((tees)=>{return(<ProductTemplate  title={tees.title} id={tees.id} price={tees.price} image={tees.pic}/>);})
+                
          }
      </div>
 

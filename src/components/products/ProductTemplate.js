@@ -1,5 +1,6 @@
 import React from 'react'
 import "./product.css"
+import { Link } from "react-router-dom";
 export const tishirts =
         [
             {
@@ -62,36 +63,37 @@ export const tishirts =
                 id: 9,
                 title: "RED STRIPS",
                 pic: "https://cdn.shopify.com/s/files/1/2290/7887/products/MTF201058-RED_1_800x1000_crop_center.jpg?v=1598519731",
-                price: "",
+                price: "25",
 
             },
             {
                 id: 10,
-                title: "",
+                title: "MIND BLACK",
                 pic: "https://cdn.shopify.com/s/files/1/2290/7887/products/MTF201053BLK.JPG_c83d92be-a18f-4521-8534-0f1996607015_800x1000_crop_center.jpg?v=1595847922",
-                price: "",
+                price: "45",
 
             },
             {
                 id: 11,
-                title: "",
+                title: "YELLOW STRIP",
                 pic: "https://cdn.shopify.com/s/files/1/2290/7887/products/MTP201038-MSTBLK_800x1000_crop_center.jpg?v=1598861094",
-                price: "",
+                price: "34",
 
             },
             {
                 id: 12,
-                title: "",
+                title: "NASA ",
                 pic: "https://cdn.shopify.com/s/files/1/2290/7887/products/MTF201050-WHT_800x1000_crop_center.jpg?v=1598859574",
-                price: "",
+                price: "63",
 
             }
 
         ]
-export const ProductTemplate = ({image,title,price}) => {
+export const ProductTemplate = ({image,title,price,id}) => {
     
     return (
         <div className="Product-main">
+            <Link to={`/products/${id}`}>
             <div className="product-image" >
                 <img height="100%" width="100%" src={image}/>
             </div>
@@ -101,6 +103,7 @@ export const ProductTemplate = ({image,title,price}) => {
             <div className="product-price">
                 Price: $ {price}
             </div>
+            </Link>
         </div>
     )
 }
