@@ -46,9 +46,9 @@ export const tishirts =
             },
             {
                 id: 7,
-                title: "",
+                title: "O YELLOW",
                 pic: "https://cdn.shopify.com/s/files/1/2290/7887/products/MTF201054-MST_800x1000_crop_center.jpg?v=1592392135",
-                price: "",
+                price: "34",
 
             },
             {
